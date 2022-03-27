@@ -7,7 +7,7 @@ function buttonSubmitClick(){
     const inputText = <HTMLInputElement>document.getElementById('inputText');
     let bPalindrome = null;
     if (inputText){
-        const bPalindrome = isPalindrome(inputText.value);
+        bPalindrome = isPalindrome(inputText.value);
         console.log(bPalindrome);
     }
 
